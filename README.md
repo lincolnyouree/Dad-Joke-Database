@@ -2,7 +2,7 @@
 
 * A simple app to help you remember your favorite dad jokes.
 
-* Click [here]() to view the app!
+* Click [here](https://lincolnyouree.github.io/Dad-Joke-Database/) to view the app!
 
 ## Technologies Implemented: 
 
