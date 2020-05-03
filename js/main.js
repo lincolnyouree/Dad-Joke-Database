@@ -1,12 +1,12 @@
 
 $('.add').on('click', function() {
-    let skill = $('input').val();
-    let newSkill = 
+    let joke = $('input').val();
+    let newJoke = 
     `<tr> 
     <td><button class="remove">X</button></td>
-    <td>${skill}</td>
+    <td>${joke}</td>
     </tr>`
-    $('tbody').append(newSkill);
+    $('tbody').append(newJoke);
     $('input').val('');
 });
 
