@@ -3,36 +3,41 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(https://i.imgur.com/0io5Qs4.jpg);
+    background-repeat: no-repeat;
 }
 
 h1 {
-    background-color: rgb(132, 202, 119); 
-    color: white;
- 
+   font-size: 8vmin;
+   padding: 2vmin;
 }
 
 .add {
-    background-color: white;
-    color: rgb(132, 202, 119);
-    font-size: 20px;
-    border-color: rgb(132, 202, 119);
-    border-width: 3px;
-    border-radius: 5px;
+    font-size: 3vmin;
+    border-color: black;
+    border-width: .5vmin;
+    border-radius: 10px;
+    outline: none;
+    padding: 1vmin;
 }
 
 .remove {
     background-color: rgb(239, 90, 93);
     color: white;
     font-size: 20px;
+    outline: none;
 }
 
 input {
-    height: 20px;
-    width: 200px;
-    dislay: flex;
+    height: 20vmin;
+    width: 50vmin;
+    font-size: 2vmin;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-width: 3px;
-    border-color: rgb(132, 202, 119);
-    border-radius: 5px;
+    border-width: .5vmin;
+    border-color: black;
+    border-radius: 1vmin;
+    outline: none;
+    padding: 1vmin;
 }
